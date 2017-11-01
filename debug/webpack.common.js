@@ -13,7 +13,7 @@ module.exports = {
 		})
 	],
 	output: {
-		filename: '[name].bundle.js',
+		filename: 'heat-map.bundle.js',
 		path: path.resolve(__dirname, '../release')
 	}
 };

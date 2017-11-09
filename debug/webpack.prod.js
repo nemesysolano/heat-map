@@ -4,7 +4,10 @@ const common = require('./webpack.common.js');
 
 module.exports = merge(common, {
   plugins: [
+     //TODO: UNcomment the next block before building for production.
+     /* *
      new UglifyJSPlugin()
+     /* */
    ]
 ,
 module: {
